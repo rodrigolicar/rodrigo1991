@@ -5,9 +5,94 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio Rodrigo Licar Gois</title>
+    
+    <!-- Google fontes -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,900;1,300;1,700&display=swap" rel="stylesheet">
+    
+    <!-- CSS do projeto -->
     <link rel="stylesheet" href="css/style.css">
+
+    <!-- Dev icon fontes-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
+    
 </head>
 <body>
-    <h1>Teste</h1>
+
+    <main id="container">
+        <aside id="bio-container">
+            <h2>Rodrigo Licar Gois</h2>
+            <img id="bio-image" src="img/profile.jpeg" alt="Rodrigo Licar Gois">
+            <p>Olá, meu nome é Rodrigo Licar e sou <span class="highlight"> Desenvolvedor Cobol</span>. </p>
+            <p id="welcome-text">Seja bem-vindo!</p>
+            <ul id="social-container">
+                <li><a href="https://www.linkedin.com/in/rodrigo-licar-gois-492618106/" target="blank"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+                <li><a href="https://github.com/rodrigolicar" target="blank"><ion-icon name="logo-github"></ion-icon></a></li>
+                
+            </ul>
+            <div id="email-container">
+                <ion-icon name="mail-outline"></ion-icon><a href="mailto:rodrigo.licar77@gmail.com">rodrigo.licar77@gmail.com</a>
+            </div>
+        </aside>
+        <section id="about-container">
+            <h1 id="name">Rodrigo Licar Gois</h1>
+            <p id="title"><span id="class-highlight">Desenvolvedor Cobol</span></p>
+            <P class="description">Sou um desenvolvedor de softwares especializado em sistemas bancários, gosto de participar do projeto desde a <span class=highlight>definição das regras de negócio e levantamento de requisitos até o deploy</span> da aplicação.</P>
+            <P class="description">Atuo principalmente com desenvolvimento de<span class="highlight"> sistemas mainframe</span> e me considero um grande entusiasta desta tecnologia.</P>
+            <a href="https://github.com/rodrigolicar" id="btn-projects"><ion-icon name="share-social-outline"></ion-icon> <span>Ver Projetos</span></a>
+            <h2 id="skills-section-title">Minhas skills</h2>
+            <p class="description">Conheça as tecnologias que domino:</p>
+            <div id="skills-container">
+                <div class="skills-box">
+                    <p class="skills-title">Back-end</p>
+                    <img id="cobol" src="img/cobol_icon.png" alt="Icone da linguagem de programação Cobol">
+                    <!--i class="devicon-php-plain colored"></i-->
+                    <!--i class="devicon-react-plain colored"></i-->
+                    <!--i class="devicon-java-plain colored"></i-->
+                </div>
+
+                <div class="skills-box">
+                    <p class="skills-title">Front-end</p>
+                    <i class="devicon-java-plain colored"></i>
+                    <i class="devicon-html5-plain colored"></i>
+                    <i class="devicon-css3-plain colored"></i>
+                    <i class="devicon-javascript-plain colored"></i>
+                    <i class="devicon-jquery-plain colored"></i>
+                </div>
+
+                <div class="skills-box">
+                    <p class="skills-title">Banco de dados</p>
+                    <i class="devicon-mysql-plain colored"></i>
+                    <img src="https://img.icons8.com/dotty/55/000000/db-2.png"/>
+                    <img src="https://img.icons8.com/color/48/000000/oracle-logo.png"/>
+                    
+                </div>
+
+                <div class="skills-box">
+                    <p class="skills-title">Back-end frameworks</p>
+                    <i class="devicon-vscode-plain colored"></i>
+                    <i class="devicon-kdz-plain colored"></i>
+                    <!--img src="https://img.icons8.com/office/16/000000/java-eclipse.png"/-->
+                </div>
+
+                <div class="skills-box">
+                    <p class="skills-title">Front-end frameworks</p>
+                    <i class="devicon-vscode-plain colored"></i>
+                </div>
+
+                <div class="skills-box">
+                    <p class="skills-title">Tools & certificates</p>
+                    <img class="badge" src="img/badge_1.PNG" alt="Badge">
+                    <img class="badge" src="img/badge_2.PNG" alt="Badge">
+                    <img class="badge" src="img/badge_3.PNG" alt="Badge">
+                    <img class="badge" src="img/badge_4.PNG" alt="Badge"> 
+                    <i class="devicon-linux-plain colored"></i>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- Ion icon -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
+
 </html>
